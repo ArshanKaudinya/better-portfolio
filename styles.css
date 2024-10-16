@@ -1,0 +1,22 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;  /* Use min-height instead of height */
+  background-color: #000;  /* Dark background for contrast */
+  overflow-y: scroll; /* Ensures scrolling is allowed even if content grows */
+}
+
+canvas {
+  display: block;  /* Use block instead of flex */
+  position: fixed;  /* Keep canvas fixed to the viewport */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.grr {
+  height: 6000px;
+} 
+
+  
